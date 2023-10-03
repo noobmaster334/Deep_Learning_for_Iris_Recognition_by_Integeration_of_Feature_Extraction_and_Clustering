@@ -68,7 +68,7 @@ Our deep learning model for iris recognition, combined with clustering technique
 Our model's performance was monitored across multiple epochs, revealing important trends in both accuracy and loss:
 | **Accuracy Over Epochs** | **Loss Over Epochs** |
 |:------------------------:|:--------------------:|
-| <img src="images/Accuracy.png" width="450" alt="Accuracy over Epochs"> | <img src="images/Model_Loss.png" width="450" alt="Loss over Epochs"> |
+| <img src="Accuracy.png" width="450" alt="Accuracy over Epochs"> | <img src="Model_Loss.png" width="450" alt="Loss over Epochs"> |
 | The accuracy graph demonstrates the model's proficiency in recognizing patterns in the training data throughout its training process. | The loss graph illustrates the degree of deviation between the model's predictions and the actual values. A downward trend indicates increasing precision. |
 
 
@@ -77,12 +77,12 @@ Our model's performance was monitored across multiple epochs, revealing importan
 **Elbow Graph**:
 In clustering, the elbow graph helps determine the ideal number of clusters. The point where the graph starts leveling off (the "elbow") suggests the optimal number of clusters for the KMeans algorithm, ensuring minimal intra-cluster distance and maximum inter-cluster separation.
 
-<img src="images/Elbow.png" width="350" alt="Elbow Graph for KMeans Clustering">
+<img src="Elbow.png" width="350" alt="Elbow Graph for KMeans Clustering">
 
 We employed the KMeans algorithm for clustering and evaluated the optimal cluster count. Additionally, the t-SNE approach provided insights into inherent data groupings:
 | **KMeans Clustering** | **t-SNE Clustering** |
 |:---------------------:|:--------------------:|
-| <img src="images/cluster.png" width="450" alt="KMeans Clustering Visualization"> | <img src="images/tSNE_Clustereing.png" width="450" alt="t-SNE Clustering Visualization"> |
+| <img src="cluster.png" width="450" alt="KMeans Clustering Visualization"> | <img src="tSNE_Clustereing.png" width="450" alt="t-SNE Clustering Visualization"> |
 | The KMeans visualization showcases data points grouped based on their shared features. | t-SNE offers a 2D or 3D representation from high-dimensional data, highlighting any intrinsic clusters within the dataset. |
 
 
@@ -90,16 +90,16 @@ We employed the KMeans algorithm for clustering and evaluated the optimal cluste
 
 - **Model Architecture Summary**:
   The architecture and layers of our model are depicted below:
-  <img src="images/Model_Summary.png" width="400" alt="Model Summary">
+  <img src="Model_Summary.png" width="400" alt="Model Summary">
   
 - **Model Output**:
   After training, our model was able to produce the following outputs:
-  <img src="images/Output_Iris.png" width="400" alt="Model Output Results">
+  <img src="Output_Iris.png" width="400" alt="Model Output Results">
 
   ### Additional Metrics
   
 For a comprehensive understanding of the model's performance, we also reviewed various metrics:
-  <img src="images/Model_Metrics.png" width="400" alt="Additional Performance Metrics">
+  <img src="Model_Metrics.png" width="400" alt="Additional Performance Metrics">
 
   
 In conclusion, the results generated from this project underscore the potential and robustness of deep learning in iris recognition tasks. By synergizing feature extraction with advanced clustering techniques, we've achieved significant improvements in accuracy and model performance. The visualizations, ranging from accuracy trends to intricate clustering patterns, paint a comprehensive picture of the model's journey and its capabilities. Such findings not only validate the methods employed but also pave the way for future advancements in the realm of biometric recognition. Our hope is that this work serves as a foundation and inspiration for researchers and practitioners looking to push the boundaries of what's possible in iris recognition and similar applications.
